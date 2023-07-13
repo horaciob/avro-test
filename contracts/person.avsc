@@ -5,10 +5,10 @@
        { "name": "name", "type": "string" },
        { "name": "other", "type": "string" },
        {
-          "name": "regex", 
+          "name": "custom", 
           "type": {
-            "logicalType": "regex", 
-            "regex": "whate/dver", 
+            "logicalType": "handshake",
+            "name":"handshake",
             "type":"string"
         }
       }

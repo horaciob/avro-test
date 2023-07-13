@@ -1,0 +1,14 @@
+{
+    "type":"record",
+    "name":"record_with_custom_type",
+    "fields":[{
+        "name":"h",
+        "type":
+        {
+            "type":"fixed",
+            "name":"handshake",
+            "size": 6
+            }
+            }
+            ]
+            }
