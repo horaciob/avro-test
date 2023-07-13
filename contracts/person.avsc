@@ -7,9 +7,9 @@
        {
           "name": "custom", 
           "type": {
-            "logicalType": "handshake",
+            "type":"fixed",
             "name":"handshake",
-            "type":"string"
+            "size": 6
         }
       }
      ]
