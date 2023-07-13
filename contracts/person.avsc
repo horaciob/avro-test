@@ -3,6 +3,14 @@
      "name": "person",
      "fields": [
        { "name": "name", "type": "string" },
-       { "name": "other", "type": "string" }
+       { "name": "other", "type": "string" },
+       {
+          "name": "regex", 
+          "type": {
+            "logicalType": "regex", 
+            "regex": "whate/dver", 
+            "type":"string"
+        }
+      }
      ]
 } 
