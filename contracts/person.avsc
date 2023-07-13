@@ -1,0 +1,15 @@
+{
+     "type": "record",
+     "name": "person",
+     "fields": [
+       { "name": "name", "type": "string" },
+       { "name": "other", "type": "string" },
+       {
+          "name": "example", 
+          "type": {
+          "logicalType": "regex", 
+          "regex": "whate/dver", "type":"string"
+        }
+      }
+     ]
+} 

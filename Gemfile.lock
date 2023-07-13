@@ -1,0 +1,82 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.0.6)
+      activesupport (= 7.0.6)
+    activesupport (7.0.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    ast (2.4.2)
+    avro (1.11.2)
+      multi_json (~> 1.0)
+    avro-builder (2.0.0)
+      avro (>= 1.9.0, < 1.12)
+    avro-resolution_canonical_form (0.6.0)
+      avro (~> 1.11.0)
+    avro_schema_registry-client (0.5.0)
+      avro-resolution_canonical_form (>= 0.2.0)
+      avro_turf (>= 0.8.0)
+    avro_turf (1.9.0)
+      avro (>= 1.7.7, < 1.12)
+      excon (~> 0.71)
+    avromatic (4.3.0)
+      activemodel (>= 5.2, < 7.1)
+      activesupport (>= 5.2, < 7.1)
+      avro (>= 1.10.0, < 1.12)
+      avro_schema_registry-client (>= 0.4.0)
+      avro_turf
+      ice_nine
+    concurrent-ruby (1.2.2)
+    excon (0.100.0)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    ice_nine (0.11.2)
+    io-console (0.6.0)
+    irb (1.7.1)
+      reline (>= 0.3.0)
+    json (2.6.3)
+    language_server-protocol (3.17.0.3)
+    minitest (5.18.1)
+    multi_json (1.15.0)
+    parallel (1.23.0)
+    parser (3.2.2.3)
+      ast (~> 2.4.1)
+      racc
+    racc (1.7.1)
+    rainbow (3.1.1)
+    regexp_parser (2.8.1)
+    reline (0.3.5)
+      io-console (~> 0.5)
+    rexml (3.2.5)
+    rubocop (1.54.0)
+      json (~> 2.3)
+      language_server-protocol (>= 3.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.2.2.3)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.28.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.29.0)
+      parser (>= 3.2.1.0)
+    ruby-progressbar (1.13.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (2.4.2)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  avro-builder
+  avro_turf
+  avromatic
+  irb
+  rubocop
+
+BUNDLED WITH
+   2.4.13
